@@ -1,4 +1,4 @@
-## Your Name
+## Katherine McPhie
 
 Welcome to my website!
 
