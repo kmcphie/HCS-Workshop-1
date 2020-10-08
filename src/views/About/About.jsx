@@ -11,7 +11,7 @@ function AboutItem(props) {
 }
 
 export default function AboutScreen() {
-  const [activeTitle, setActiveTitle] = React.useState("BLANK");
+  const [activeTitle, setActiveTitle] = React.useState("");
 
   return (
     <div className="screen-background">
@@ -45,7 +45,7 @@ export default function AboutScreen() {
       </div>
       <div className = "extra-info">
         <AboutItem 
-          title = "Learn more" 
+          title = "Contact Me" 
           setActiveTitle = {setActiveTitle}></AboutItem>
       </div>
       <div onClick = {() => {

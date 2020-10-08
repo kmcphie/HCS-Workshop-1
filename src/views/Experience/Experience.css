@@ -1,9 +1,11 @@
 .experience-background {
   display: flex;
+  flex-direction: row;
 }
 
 .timeline-background {
   width: 50%;
+  flex-direction: row;
 }
 
 .timeline-item {
@@ -27,7 +29,7 @@
   width: 24px;
   height: 24px;
   border-radius: 12px;
-  background: crimson;
+  background: gray;
 }
 
 .experience-info {
@@ -45,7 +47,7 @@ p {
   flex-direction: column;
   width: 50%;
   height: calc(100%);
-  background: crimson;
+  background: gray;
   position: -webkit-sticky;
   position: sticky;
   top: 48px;
