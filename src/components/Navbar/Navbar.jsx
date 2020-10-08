@@ -38,6 +38,7 @@ export default function Navbar() {
       </div>
       <div className="nav-background">
       <Link to = {{pathname: "/about"}}>About</Link>
+      <Link to = {{pathname: "/education"}}>Education</Link>
       <Link to = {{pathname: "/experience"}}>Experience</Link>
       <Link to = {{pathname: "/projects"}}>Projects</Link>
       </div>

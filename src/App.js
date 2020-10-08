@@ -6,6 +6,7 @@ import ExperienceScreen from "./views/Experience/Experience";
 import ProjectsScreen from "./views/Projects/Projects";
 
 import Navbar from "./components/Navbar/Navbar";
+import EducationScreen from "./views/Education/Education";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/experience" component={ExperienceScreen} />
+          <Route path="/education" component={EducationScreen} />
           <Route path="/projects" component={ProjectsScreen} />
           <Route path={["/about", "/"]} component={AboutScreen} />
         </Switch>

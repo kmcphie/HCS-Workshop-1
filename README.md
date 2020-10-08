@@ -4,7 +4,7 @@ Welcome to my website!
 
 ### Added Feature #1
 
-Description
+Added Education Tab
 
 Screenshots
 
