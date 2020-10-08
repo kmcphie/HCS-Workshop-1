@@ -8,9 +8,15 @@
   flex-direction: row;
 }
 
+.info-background {
+  flex-direction: column;
+  align-items: right;
+  height: 100%;
+}
+
 .timeline-item {
   display: flex;
-  width: 50%;
+  width: 180px; /*50%;*/
   height: 120px;
   justify-content: center;
   align-items: center;
@@ -60,4 +66,9 @@ p {
 h4,
 p {
   margin: 8px;
+}
+
+.more-info {
+  color: lightseagreen;
+  margin: 32px;
 }
