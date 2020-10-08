@@ -2,9 +2,9 @@
 
 Welcome to my website!
 
-### Added Feature #1
+### Added Education Tab
 
-Added Education Tab
+I added an additional education tab to the website.
 
 Screenshots
 

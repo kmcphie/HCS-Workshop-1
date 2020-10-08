@@ -1,14 +1,26 @@
 import React from "react";
 import "./About.css";
-import CutePic from "../../assets/kat_pic.png";
+import HeadShot from "../../assets/kat_pic.png";
+
+function AboutItem(props) {
+  return (
+    <div className = "intro-item">
+      <h1>{props.title}</h1>
+    </div>
+  )
+}
 
 export default function AboutScreen() {
+  const [activeTitle, setActiveTitle] = React.useState("BLANK");
+
   return (
     <div className="screen-background">
+      <div className = "extra-info">
+        <AboutItem 
+          title = "About Me" 
+          setActiveTitle = {setActiveTitle}></AboutItem>
+      </div>
       <div className="intro-background">
-        <div className="intro-item">
-          <img src = {CutePic} className = "intro-picture"/>
-        </div>
         <div className="intro-item">
         Katherine McPhie studies Computer Science at Harvard University. She is a member of the 2020 virtual cohort for Google’s 
         Computer Science Summer Institute, and a Coolidge Scholar.
@@ -27,6 +39,20 @@ export default function AboutScreen() {
         Association, and several tech clubs. She enjoys playing piano and trumpet, reading, spending time with family and friends, 
         and is active in her church community. 
         </div>
+        <div className="intro-item">
+          <img src = {HeadShot} className = "intro-picture"/>
+        </div>
+      </div>
+      <div className = "extra-info">
+        <AboutItem 
+          title = "Learn more" 
+          setActiveTitle = {setActiveTitle}></AboutItem>
+      </div>
+      <div onClick = {() => {
+        setActiveTitle("katherinemcphie@college.harvard.edu");
+      }}>Click here to see contact information...</div>
+      <div className="extra-info">
+        <p>{activeTitle}</p>
       </div>
     </div>
   );
