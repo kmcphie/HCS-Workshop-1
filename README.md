@@ -2,11 +2,13 @@
 
 Welcome to my website!
 
+### Added div onClick to About Tab
+
+Now in the About tab you can click to reveal contact information.
+
 ### Added Education Tab
 
 I created an Education tab and listed my education there the way it would be listed on a resume.
-
-Screenshots
 
 ### Added Descriptions to Experience Tab
 
