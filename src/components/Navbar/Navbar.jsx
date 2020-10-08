@@ -15,21 +15,21 @@ export default function Navbar() {
         <div className="info-bar">
           <Link 
             className = "info-link"
-            to = {{pathname: "https://instagram.com/katherinemcphie/})"}}
+            to = {{pathname: "https://instagram.com/katherinemcphie/"}}
             target = "_blank"
           >
             Instagram
           </Link>
           <Link 
             className = "info-link"
-            to = {{pathname: "https://github.com/kmcphie})"}}
+            to = {{pathname: "https://github.com/kmcphie"}}
             target = "_blank"
           >
             GitHub
           </Link>
           <Link 
             className = "info-link"
-            to = {{pathname: "https://linkedin.com/in/katherine-mcphie/})"}}
+            to = {{pathname: "https://linkedin.com/in/katherine-mcphie/"}}
             target = "_blank"
           >
             LinkedIn

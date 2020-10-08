@@ -3,7 +3,9 @@ import "./Experience.css";
 
 function TimeLineItem(props) {
   return (
-    <div className = "timeline-item">
+    <div onClick = {() => {
+      props.setActiveTitle(props.title);}}
+      className = "timeline-item">
       <h4>{props.title}</h4>
     </div>
   )
@@ -36,12 +38,9 @@ export default function ExperienceScreen() {
             title = "AppJam+ Regional Mobile App Development Competition"
             setActiveTitle = {setActiveTitle}>
           </TimeLineItem>
-          <div onClick = {() => {
-            setActiveTitle("hcs");
-          }}>Click here for more information</div>
         </div>
         <div className="highlight-background">
-          <p>{activeTitle}</p>
+          <h1>{activeTitle}</h1>
         </div>
       </div>
     </div>
